@@ -1,4 +1,12 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["dodgerblue", "gsap", "yoyo"]
+  "cSpell.words": [
+    "dodgerblue",
+    "Greensock",
+    "gsap",
+    "nextjs",
+    "tailwindcss",
+    "Vercel",
+    "yoyo"
+  ]
 }

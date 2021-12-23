@@ -5,6 +5,8 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
+    // imported like this because GSAP requires body dom element to be present
+    // see https://greensock.com/forums/topic/22491-gsap3-target-object-not-found/
     import('../helpers/gsap');
   }, []);
 

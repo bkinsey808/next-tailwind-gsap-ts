@@ -1,6 +1,8 @@
 import { gsap } from 'gsap';
 import { useRef, useEffect } from 'react';
 
+// based off of this example: https://greensock.com/docs/v3/GSAP/UtilityMethods/selector()
+
 const data = [{ id: 0 }, { id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }];
 
 interface BoxProps {
